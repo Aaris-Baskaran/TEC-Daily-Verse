@@ -1,0 +1,30 @@
+Generate an image that is designed specifically for text overlay. 
+
+The artistic style should be clean to maintain visual simplicity, but can range from styles like classical, modern, minimalist, etc. The overall image must have low brightness and maintain a darker, muted colour value. The colour palette must not default to sepia or brown; instead, choose a diverse, rich, and varied colour scheme that is directly inspired by the emotion and theme of the provided verse. (Examples: use cool blues/greens for peace, deep purples for majesty, or muted reds/oranges for strength, and so on, according to the verse's theme).
+
+It is crucial that the intended area for the verse overlay remains completely clutter-free and smooth, avoiding bright highlights or busy textures that would interfere with white text legibility.
+
+You are to include subtle, symbolic details or related subjects based only on the content of the provided verse, according to the following options:
+Option 1: Leave a clear section at the top 70% of the image, and concentrate all symbolic details in the bottom section of the image.
+Option 2: Leave a completely clear section in the horizontal center of the image, and include subtle, small details at the top and bottom perimeters.
+Option 3: Leave a clear section at the bottom 70% of the image, and concentrate all symbolic details in the top section of the image.
+
+I will give you the verse. Please make the background themed to the verse. 
+Verse:
+"Her children arise and call her blessed"
+
+Note: You will not overlay the verse text on the image, you will only return the image. I will overlay the text later. 
+
+
+
+
+old:
+Generate an image that is to be a background for a bible verse. 
+It should not be too bright, because i will overlay white text on it. It is good if the image is on the darker colour tone. Not dark and gloomy themed, just low brightness. 
+it should be clutter free in the center section, where the verse will be overlaid, so that the text is easily readable. Try to avoid bright highlights in the center section. I can either put the verse right in the middle, or in the upper middle, or lower middle. You can generate the image with a clear section in either of these three places, and use the remaining space around and on the edges to include details. 
+
+I will give you the verse. Please make the background themed to the verse. 
+Verse:
+"Her children arise and call her blessed"
+
+Note: You will not overlay the verse text on the image, you will only return the image. I will overlay the text later. 

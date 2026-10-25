@@ -1,6 +1,6 @@
 import azure.functions as func
 import logging
-from verse import get_verses
+from verse import get_verses, generate_image
 import json
 
 app = func.FunctionApp(http_auth_level=func.AuthLevel.ANONYMOUS)
@@ -16,6 +16,8 @@ def http_trigger(req: func.HttpRequest) -> func.HttpResponse:
 
     if book and chapter and verse_num:
         verses = get_verses(book, chapter, verse_num)
+        # Generate image from the first verse (english version)
+        generate_image(verses[0])
         return func.HttpResponse(
             json.dumps(verses), mimetype="application/json", status_code=200
         )
